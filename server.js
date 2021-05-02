@@ -72,5 +72,4 @@ app.get('/lyrics', async (req, res) => {
   res.json({lyrics})
 })
 
-app.listen(process.env.PORT || 5000, console.log("App listening on Port 5000"));
-
+app.listen(3001, console.log("App listening on Port 3001"));
